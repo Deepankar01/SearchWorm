@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/searchworm.css" rel="stylesheet">
-    <title>Search Worm</title>
-
-
+    <title>Upload Books</title>
+    <style>
+        label.myLabel input[type="file"] {
+            position: fixed;
+            top: -1000px;
+        }
+    </style>
 </head>
-
 <body>
 
 <!--Content for Header-->
@@ -66,10 +69,12 @@
             <!--Beginning of Panel-->
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <p class="lead">What do you want to search today</p>
+                    <p class="lead">Upload Book</p>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="searchBox" placeholder="Search books">
-                        <div class="input-group-btn"><button type="button" class="btn btn-success"><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;Search Books</button></div>
+                        <label class="myLabel">
+                            <input type="file" required/>
+                            <span  class="btn-lg btn-success" ><i class="glyphicon glyphicon-upload"></i>&nbsp;&nbsp;&nbsp;&nbsp;Upload Book</span>
+                        </label>
                     </div>
                 </div>
             </div>
@@ -85,16 +90,10 @@
 
 </div>
 
-<!--Content for Footer-->
-<div id="footer">
-
-</div>
 
 
 
-
-
-<!--Javascripts Included-->
+<!--Javascript Included-->
 <script src="js/jquery-2.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
