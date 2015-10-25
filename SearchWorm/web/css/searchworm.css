@@ -1,0 +1,25 @@
+.header-text{
+    color: #5cb85c;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: -68px;
+    margin-left: 102px;
+    border-style: dashed;
+    border-width: 3px;
+    padding: 6px 6px 6px 6px;
+}
+.header-img{
+    height: 70px;
+    width: auto;
+    margin-top: -11px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.panel{
+    border-style: dashed;
+    border-width: 3px;
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+}

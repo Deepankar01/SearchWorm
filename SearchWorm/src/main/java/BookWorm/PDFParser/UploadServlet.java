@@ -53,7 +53,7 @@ public class UploadServlet extends HttpServlet {
         // maximum size that will be stored in memory
         factory.setSizeThreshold(maxMemSize);
         // Location to save data that is larger than maxMemSize.
-        factory.setRepository(new File("C:\\Users\\abhin\\Desktop\\server_uploads\\tmp"));
+        factory.setRepository(new File(filePath+"\\tmp"));
 
         // Create a new file upload handler
         ServletFileUpload upload = new ServletFileUpload(factory);
@@ -105,8 +105,23 @@ public class UploadServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response)
             throws ServletException, IOException {
-        throw new ServletException("GET method used with " +
-                getClass().getName() + ": POST method required.");
+        response.getWriter().print("<!DOCTYPE HTML>" +
+                "<html>" +
+                "<head>" +
+                "    <title>File Uploading Form</title>" +
+                "</head>" +
+                "<body>" +
+                "<h3>File Upload:</h3>" +
+                "Select a file to upload: <br/>" +
+                "" +
+                "<form action=\"upload\" method=\"post\"" +
+                "      enctype=\"multipart/form-data\">" +
+                "    <input type=\"file\" name=\"file\" size=\"50\" multiple/>" +
+                "    <br/>" +
+                "    <input type=\"submit\" value=\"Upload File\"/>" +
+                "</form>" +
+                "</body>" +
+                "</html>");
     }
 
     public static void func(String filename) throws Exception {
