@@ -25,8 +25,7 @@ public class ReaderDemo {
         MetaData metaData = new MetaData(document);
         metaDict = metaData.getMetaData();
 
-        for(int i=1;i<=Integer.parseInt(metaDict.get("PageCount"));i++)
-        {
+        for (int i = 1; i <= Integer.parseInt(metaDict.get("PageCount")); i++) {
             //To Index the data to the cluster
             searchWormElasticSearch.addData(metaDict.get("Title"), String.valueOf(i), readPages.getPages(i, i));
         }
