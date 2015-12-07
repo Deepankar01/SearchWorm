@@ -6,12 +6,12 @@
 
     <context-param>
         <param-name>file-upload-path</param-name>
-        <param-value>C:\\Users\\abhin\\Desktop\\server_uploads\\</param-value>
+        <param-value>/server_uploads/</param-value>
     </context-param>
 
     <servlet>
         <servlet-name>UploadServlet</servlet-name>
-        <servlet-class>BookWorm.PDFParser.UploadServlet</servlet-class>
+        <servlet-class>SearchWorm.PDFParser.UploadServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UploadServlet</servlet-name>
@@ -20,7 +20,7 @@
 
     <servlet>
         <servlet-name>SearchServlet</servlet-name>
-        <servlet-class>BookWorm.PDFParser.SearchServlet</servlet-class>
+        <servlet-class>SearchWorm.PDFParser.SearchServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SearchServlet</servlet-name>

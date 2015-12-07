@@ -1,4 +1,4 @@
-package BookWorm.PDFParser;
+package SearchWorm.PDFParser;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -53,7 +53,7 @@ public class UploadServlet extends HttpServlet {
         // maximum size that will be stored in memory
         factory.setSizeThreshold(maxMemSize);
         // Location to save data that is larger than maxMemSize.
-        factory.setRepository(new File(filePath+"\\tmp"));
+        factory.setRepository(new File(filePath+"temp"));
 
         // Create a new file upload handler
         ServletFileUpload upload = new ServletFileUpload(factory);
@@ -130,8 +130,8 @@ public class UploadServlet extends HttpServlet {
 
         Dictionary<String, String> metaDict;
         Settings settings = ImmutableSettings.settingsBuilder()
-                .put("cluster.name", "bookworm").build();
-        BookWormElasticSearch bookWormElasticSearch = new BookWormElasticSearch(settings);
+                .put("cluster.name", "searchworm").build();
+        SearchWormElasticSearch searchWormElasticSearch = new SearchWormElasticSearch(settings);
 
 
         //Class to read the pages of the book
@@ -143,10 +143,10 @@ public class UploadServlet extends HttpServlet {
 
         for (int i = 1; i <= Integer.parseInt(metaDict.get("PageCount")); i++) {
             //To Index the data to the cluster
-            bookWormElasticSearch.addData(metaDict.get("Title"), String.valueOf(i), readPages.getPages(i, i));
+            searchWormElasticSearch.addData(metaDict.get("Title"), String.valueOf(i), readPages.getPages(i, i));
         }
 
-        bookWormElasticSearch.closeClient();
+        searchWormElasticSearch.closeClient();
     }
 
 }

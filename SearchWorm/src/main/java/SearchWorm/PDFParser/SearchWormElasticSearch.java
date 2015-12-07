@@ -1,4 +1,4 @@
-package BookWorm.PDFParser;
+package SearchWorm.PDFParser;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -19,18 +19,18 @@ import org.elasticsearch.index.query.QueryBuilders;
 import static org.elasticsearch.index.query.QueryBuilders.*;
 import static org.elasticsearch.common.xcontent.XContentFactory.*;
 
-public class BookWormElasticSearch {
+public class SearchWormElasticSearch {
     Client client;
     Settings settings;
 
-    public BookWormElasticSearch(Settings clientsettings) {
+    public SearchWormElasticSearch(Settings clientsettings) {
         settings = clientsettings;
         client = new TransportClient(settings)
                 .addTransportAddress(new InetSocketTransportAddress("localhost", 9300));
     }
 
     public void addData(String bookTitle, String pageNumber, String content) throws ElasticsearchException, IOException {
-        IndexResponse response = client.prepareIndex("bookworm", bookTitle, pageNumber)
+        IndexResponse response = client.prepareIndex("searchworm", bookTitle, pageNumber)
                 .setSource(jsonBuilder()
                                 .startObject()
                                 .field("content", content)
@@ -42,20 +42,20 @@ public class BookWormElasticSearch {
     }
 
     public void removePage(String bookTitle, String pageNumber) {
-        DeleteResponse response = client.prepareDelete("bookworm", bookTitle, pageNumber)
+        DeleteResponse response = client.prepareDelete("searchworm", bookTitle, pageNumber)
                 .execute()
                 .actionGet();
     }
 
     public void removeBook(String bookTitle) {
-        DeleteByQueryResponse response = client.prepareDeleteByQuery("bookworm")
+        DeleteByQueryResponse response = client.prepareDeleteByQuery("searchworm")
                 .setQuery(termQuery("_type", bookTitle))
                 .execute()
                 .actionGet();
     }
 
     public void searchBooks(String search) {
-        SearchResponse response = client.prepareSearch("bookworm")
+        SearchResponse response = client.prepareSearch("searchworm")
                 .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
                 .setQuery(QueryBuilders.queryString(search))             // Query
                 .setExplain(true)

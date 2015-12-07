@@ -1,4 +1,4 @@
-package BookWorm.PDFParser;
+package SearchWorm.PDFParser;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

@@ -1,4 +1,4 @@
-package BookWorm.PDFParser;
+package SearchWorm.PDFParser;
 
 import java.util.Dictionary;
 import java.util.Hashtable;
