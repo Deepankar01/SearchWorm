@@ -39,8 +39,8 @@
                 </a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="upload.html">Upload Books</a></li>
-                <li><a href="index.html">Search Books</a></li>
+                <li><a href="/upload">Upload Books</a></li>
+                <li><a href="/search">Search Books</a></li>
             </ul>
         </div>
     </nav>
@@ -82,12 +82,18 @@
                 <div class="panel-body">
                     <p class="lead">Upload Book</p>
 
-                    <div class="input-group">
-                        <label class="myLabel">
-                            <input type="file" required/>
-                            <span class="btn-lg btn-success"><i class="glyphicon glyphicon-upload"></i>&nbsp;&nbsp;&nbsp;&nbsp;Upload Book</span>
-                        </label>
-                    </div>
+                    <form action="/upload" method="post" enctype="multipart/form-data">
+                        <div class="input-group">
+                            <label class="myLabel">
+                                <input type="file" name="file" size="50" multiple/>
+                                <span class="btn-lg btn-success"><i class="glyphicon glyphicon-upload"></i>&nbsp;&nbsp;&nbsp;&nbsp;Choose files</span>
+                            </label>
+                            <br/>
+                            <label class="myLabel">
+                                <input type="submit" value="Upload" class="btn-lg btn-success">
+                            </label>
+                        </div>
+                    </form>
                 </div>
             </div>
             <!--End of Panel-->

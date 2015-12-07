@@ -1,3 +1,4 @@
+/*
 package SearchWorm.PDFParser;
 
 import org.apache.commons.fileupload.FileItem;
@@ -7,18 +8,23 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.elasticsearch.common.settings.ImmutableSettings;
 import org.elasticsearch.common.settings.Settings;
 
-import java.io.*;
-import java.util.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Dictionary;
+import java.util.Iterator;
+import java.util.List;
 
+*/
 /**
- * Created by abhinav on 24/10/15.
- */
+ * Created by abhinav on 7/12/15.
+ *//*
 
-public class UploadServlet extends HttpServlet {
+public class Servlet extends HttpServlet {
 
     private boolean isMultipart;
     private static String filePath;
@@ -71,7 +77,11 @@ public class UploadServlet extends HttpServlet {
                 FileItem fi = (FileItem) i.next();
                 if (!fi.isFormField()) {
                     // Get the uploaded file parameters
+                    String fieldName = fi.getFieldName();
                     String fileName = fi.getName();
+                    String contentType = fi.getContentType();
+                    boolean isInMemory = fi.isInMemory();
+                    long sizeInBytes = fi.getSize();
                     // Write the file
                     if (fileName.lastIndexOf("\\") >= 0) {
                         file = new File(filePath +
@@ -99,7 +109,7 @@ public class UploadServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
         renderTop(out);
         out.print("                    <p class='lead'>Upload Book</p>" +
-                "                    <form action='/upload' method='post' enctype='multipart/form-data'>" +
+                "                    <form action='/serv' method='post' enctype='multipart/form-data'>" +
                 "                        <div class='input-group'>" +
                 "                            <label class='myLabel'>" +
                 "                                <input type='file' name='file' size='50' multiple/>" +
@@ -222,4 +232,4 @@ public class UploadServlet extends HttpServlet {
                 "</body>" +
                 "</html>");
     }
-}
+}*/

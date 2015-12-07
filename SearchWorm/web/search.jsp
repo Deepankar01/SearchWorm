@@ -34,8 +34,8 @@
                 </a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="upload.html">Upload Books</a></li>
-                <li><a href="index.html">Search Books</a></li>
+                <li><a href="/upload">Upload Books</a></li>
+                <li><a href="/search">Search Books</a></li>
             </ul>
         </div>
     </nav>

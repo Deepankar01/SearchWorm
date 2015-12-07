@@ -54,14 +54,17 @@ public class SearchWormElasticSearch {
                 .actionGet();
     }
 
-    public void searchBooks(String search) {
+    public String searchBooks(String search) {
+//                .setQuery(QueryBuilders.queryString(search))             // Query
         SearchResponse response = client.prepareSearch("searchworm")
                 .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
-                .setQuery(QueryBuilders.queryString(search))             // Query
+                .setQuery(QueryBuilders.queryStringQuery(search))             // Query
                 .setExplain(true)
                 .execute()
                 .actionGet();
-        System.out.println(response);
+
+//        System.out.println(response);
+        return response.toString();
     }
 
     public void closeClient() {
