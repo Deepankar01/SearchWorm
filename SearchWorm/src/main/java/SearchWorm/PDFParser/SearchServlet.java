@@ -21,10 +21,7 @@ import java.util.Map;
 public class SearchServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.doGet(req, resp);
-
         PrintWriter out = resp.getWriter();
-
         renderTop(out);
         renderForm(out);
         renderEnd(out);

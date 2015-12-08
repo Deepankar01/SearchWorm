@@ -30,7 +30,7 @@ public class UploadServlet extends HttpServlet {
         // Get the file location where it would be stored.
 //        filePath = getServletContext().getInitParameter("file-upload-path");
 //        filePath = getServletContext().getContextPath();
-        filePath = getServletContext().getRealPath("")+"/web/";
+        filePath = getServletContext().getRealPath("") + "/web/";
 
     }
 
@@ -45,8 +45,7 @@ public class UploadServlet extends HttpServlet {
         if (!isMultipart) {
             renderTop(out);
 
-            out.print("<p class='lead'>No file uploaded</p>" +
-                    "");
+            out.print("<p class='lead'>No file uploaded</p>");
 
             renderEnd(out);
             return;
@@ -75,7 +74,7 @@ public class UploadServlet extends HttpServlet {
                 if (!fi.isFormField()) {
                     // Get the uploaded file parameters
                     String fileName = fi.getName();
-                    fileName = fileName.replaceAll(",","_");
+                    fileName = fileName.replaceAll(",", "_");
                     // Write the file
                     if (fileName.lastIndexOf("\\") >= 0) {
                         file = new File(filePath +
@@ -103,19 +102,19 @@ public class UploadServlet extends HttpServlet {
 
         PrintWriter out = resp.getWriter();
         renderTop(out);
-        out.print("                    <p class='lead'>Upload Book</p>" +
-                "                    <form action='/upload' method='post' enctype='multipart/form-data'>" +
-                "                        <div class='input-group'>" +
-                "                            <label class='myLabel'>" +
-                "                                <input type='file' name='file' size='50' multiple/>" +
-                "                                <span class='btn-lg btn-success'><i class='glyphicon glyphicon-upload'></i>&nbsp;&nbsp;&nbsp;&nbsp;Choose files</span>" +
-                "                            </label>" +
-                "                            <br/>" +
-                "                            <label class='myLabel'>" +
-                "                                <input type='submit' value='Upload' class='btn-lg btn-success'>" +
-                "                            </label>" +
-                "                        </div>" +
-                "                    </form>");
+        out.print("<p class='lead'>Upload Book</p>" +
+                "<form action='/upload' method='post' enctype='multipart/form-data'>" +
+                "    <div class='input-group'>" +
+                "         <label class='myLabel'>" +
+                "              <input type='file' name='file' size='50' multiple/>" +
+                "              <span class='btn-lg btn-success'><i class='glyphicon glyphicon-upload'></i>&nbsp;&nbsp;&nbsp;&nbsp;Choose files</span>" +
+                "         </label>" +
+                "         <br/>" +
+                "         <label class='myLabel'>" +
+                "              <input type='submit' value='Upload' class='btn-lg btn-success'>" +
+                "         </label>" +
+                "     </div>" +
+                "</form>");
         renderEnd(out);
     }
 

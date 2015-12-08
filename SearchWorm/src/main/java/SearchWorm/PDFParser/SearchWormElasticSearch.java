@@ -70,5 +70,4 @@ public class SearchWormElasticSearch {
     public void closeClient() {
         client.close();
     }
-
 }

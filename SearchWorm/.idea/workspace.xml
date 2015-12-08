@@ -1,380 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ea0e7d4-561c-420a-9dbe-cb459d613fee" name="Default" comment="Complete Search servlet&#10;Add pdf js">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78ms-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78ms-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/83pv-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90ms-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90ms-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90msp-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90msp-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90pv-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90pv-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-0.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-1.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-3.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-4.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-5.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-6.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-UCS2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-0.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-1.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-3.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-4.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-5.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-UCS2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-0.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-1.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-3.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-4.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-5.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-6.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-UCS2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-0.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-1.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-UCS2.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5pc-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5pc-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS1-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS1-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS2-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS2-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETHK-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETHK-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETen-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETen-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETenms-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETenms-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK2K-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK2K-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBKp-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBKp-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBTpc-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBTpc-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBpc-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBpc-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdla-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdla-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdlb-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdlb-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKgccs-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKgccs-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm314-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm314-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm471-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm471-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKscs-B5-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKscs-B5-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Hankaku.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Hiragana.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-Johab-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-Johab-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-HW-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-HW-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCpc-EUC-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCpc-EUC-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Katakana.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/NWP-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/NWP-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/RKSJ-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/RKSJ-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Roman.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UCS2-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UCS2-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF16-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF16-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF8-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF8-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UCS2-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UCS2-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF16-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF16-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF8-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF8-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-HW-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-HW-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF16-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF16-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF8-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF8-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF16-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF16-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF8-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF8-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISPro-UCS2-HW-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISPro-UCS2-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISPro-UTF8-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX0213-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX0213-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX02132004-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX02132004-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UCS2-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UCS2-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF16-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF16-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF32-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF32-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF8-H.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF8-V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/V.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/WP-Symbol.bcmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/grab.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/grabbing.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/loading-icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/loading-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/loading-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-documentProperties.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-documentProperties@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-firstPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-firstPage@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-handTool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-handTool@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-lastPage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-lastPage@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCcw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCcw@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCw@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/texture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-bookmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-bookmark@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-download@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-menuArrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-menuArrows@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-openFile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-openFile@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-presentationMode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-presentationMode@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-print@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-search@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewAttachments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewAttachments@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewThumbnail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewThumbnail@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomIn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomIn@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomOut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomOut@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed-rtl@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-expanded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-expanded@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/pdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/pdf.worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/compatibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/debugger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-check.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-comment.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-help.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-insert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-key.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-newparagraph.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-noicon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-note.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-paragraph.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/l10n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ach/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/af/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ak/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/an/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ar/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/as/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ast/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/az/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/be/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bg/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bn-BD/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bn-IN/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/br/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bs/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ca/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/cs/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/csb/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/cy/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/da/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/de/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/el/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/en-GB/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/en-US/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/en-ZA/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/eo/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-AR/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-CL/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-ES/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-MX/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/et/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/eu/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fa/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ff/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fi/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fr/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fy-NL/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ga-IE/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/gd/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/gl/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/gu-IN/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/he/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hi-IN/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hr/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hu/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hy-AM/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/id/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/is/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/it/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ja/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ka/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/kk/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/km/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/kn/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ko/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ku/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lg/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lij/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/locale.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lt/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lv/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mai/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mk/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ml/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mn/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mr/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ms/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/my/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nb-NO/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nl/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nn-NO/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nso/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/oc/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/or/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pa-IN/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pl/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pt-BR/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pt-PT/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/rm/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ro/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ru/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/rw/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sah/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/si/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sk/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sl/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/son/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sq/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sr/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sv-SE/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sw/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ta-LK/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ta/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/te/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/th/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/tl/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/tn/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/tr/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/uk/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ur/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/vi/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/wo/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/xh/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/zh-CN/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/zh-TW/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/zu/viewer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/viewer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/viewer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
+    <list default="true" id="3ea0e7d4-561c-420a-9dbe-cb459d613fee" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/test.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SearchWorm_war_exploded.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/SearchWorm_war_exploded.war/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search.jsp" afterPath="$PROJECT_DIR$/web/search.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/upload.jsp" afterPath="$PROJECT_DIR$/web/upload.jsp" />
     </list>
     <ignored path="SearchWorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -398,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.7205882">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -410,22 +47,105 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdf.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/build/pdf.js">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5411471">
-              <caret line="1932" column="6" selection-start-line="1932" selection-start-column="6" selection-end-line="1932" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="MetaData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/MetaData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.5">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#UploadServlet#0" expanded="false" />
+                <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
+                <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="86" column="111" selection-start-line="86" selection-start-column="111" selection-end-line="86" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="52" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+              <folding>
+                <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReaderDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReaderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadPages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReadPages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -435,8 +155,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -460,16 +180,17 @@
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReaderDemo.java" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/web/viewer.js" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" />
         <option value="$PROJECT_DIR$/web/search.jsp" />
         <option value="$PROJECT_DIR$/web/upload.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" />
-        <option value="$PROJECT_DIR$/web/web/viewer.js" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" />
       </list>
     </option>
   </component>
@@ -532,6 +253,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -592,42 +314,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchWorm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchWorm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchWorm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchWorm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -657,11 +343,18 @@
               <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchWorm_war_exploded.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1209,9 +902,9 @@
       </method>
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.JsonParser" />
-      <item index="1" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.5.0.Final-redhat-21" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat_SearchWorm" />
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.5.0.Final-redhat-21" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat_SearchWorm" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JsonParser" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1233,7 +926,10 @@
       <workItem from="1445791031141" duration="4170000" />
       <workItem from="1449485672670" duration="28841000" />
       <workItem from="1449546064690" duration="3441000" />
-      <workItem from="1449569701877" duration="13065000" />
+      <workItem from="1449569701877" duration="13140000" />
+      <workItem from="1449583633928" duration="2259000" />
+      <workItem from="1449589230784" duration="1795000" />
+      <workItem from="1449594182511" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Change form bookworm to searchworm">
       <created>1449489105117</created>
@@ -1253,11 +949,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449518788228</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete Search servlet&#10;Add pdf js">
+      <created>1449582881111</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449582881111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54770000" />
+    <option name="totallyTimeSpent" value="59047000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1272,31 +974,31 @@
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39157566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24924242" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.5054602" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39157566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1317,10 +1019,10 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39157566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39157566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24924242" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.5054602" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1356,6 +1058,158 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="111" selection-start-line="86" selection-start-column="111" selection-end-line="86" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="52" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReadPages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#2805#2806#0" expanded="false" />
+            <element signature="e#2835#2836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="111" selection-start-line="86" selection-start-column="111" selection-end-line="86" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="52" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/build/pdf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/upload.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1381,6 +1235,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#UploadServlet#0" expanded="false" />
             <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
             <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
@@ -1418,6 +1273,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#UploadServlet#0" expanded="false" />
             <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
             <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
@@ -1437,7 +1293,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#2805#2806#0" expanded="false" />
+            <element signature="e#2835#2836#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,44 +1336,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/MetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1764706">
-          <caret line="15" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31958762">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.7.3/elasticsearch-1.7.3.jar!/org/elasticsearch/index/query/QueryBuilders.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35656837">
           <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReaderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1526,66 +1351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReadPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24019608">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="177.75">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/viewer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.35">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/viewer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.1">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;class#UploadServlet#0" expanded="false" />
-            <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
-            <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/search.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.133333">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1594,16 +1363,8 @@
         <state vertical-scroll-proportion="-8.9">
           <caret line="190" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9107#0" expanded="true" />
+            <element signature="e#0#9107#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.5">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,25 +1372,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034313727">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/build/pdf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5411471">
-          <caret line="1932" column="6" selection-start-line="1932" selection-start-column="6" selection-end-line="1932" selection-end-column="6" />
+        <state vertical-scroll-proportion="2.862745">
+          <caret line="1977" column="31" selection-start-line="1977" selection-start-column="31" selection-end-line="1977" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/compatibility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0666666">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-common_3_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6">
+          <caret line="813" column="37" selection-start-line="813" selection-start-column="37" selection-end-line="813" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#2805#2806#0" expanded="false" />
+            <element signature="e#2835#2836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="111" selection-start-line="86" selection-start-column="111" selection-end-line="86" selection-end-column="111" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="52" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/EAP-6.4.0/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-2.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36036035">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/MetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReadPages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7205882">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
