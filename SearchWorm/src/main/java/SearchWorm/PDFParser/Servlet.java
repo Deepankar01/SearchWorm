@@ -7,6 +7,8 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.elasticsearch.common.settings.ImmutableSettings;
 import org.elasticsearch.common.settings.Settings;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,129 +26,84 @@ import java.util.List;
  * Created by abhinav on 7/12/15.
  *//*
 
+
 public class Servlet extends HttpServlet {
 
-    private boolean isMultipart;
-    private static String filePath;
-    private int maxFileSize = 50 * 1024 * 1024;
-    private int maxMemSize = 4 * 1024;
-    private File file;
-
-    public void init() {
-        // Get the file location where it would be stored.
-        filePath = getServletContext().getInitParameter("file-upload-path");
-    }
-
-
-    public void doPost(HttpServletRequest request,
-                       HttpServletResponse response)
-            throws ServletException, IOException {
-        // Check that we have a file upload request
-        isMultipart = ServletFileUpload.isMultipartContent(request);
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
-        if (!isMultipart) {
-            renderTop(out);
-
-            out.print("<p class='lead'>No file uploaded</p>" +
-                    "");
-
-            renderEnd(out);
-            return;
-        }
-        DiskFileItemFactory factory = new DiskFileItemFactory();
-        // maximum size that will be stored in memory
-        factory.setSizeThreshold(maxMemSize);
-        // Location to save data that is larger than maxMemSize.
-        factory.setRepository(new File(filePath + "temp"));
-
-        // Create a new file upload handler
-        ServletFileUpload upload = new ServletFileUpload(factory);
-        // maximum file size to be uploaded.
-        upload.setSizeMax(maxFileSize);
-
-        try {
-            // Parse the request to get file items.
-            List fileItems = upload.parseRequest(request);
-
-            // Process the uploaded file items
-            Iterator i = fileItems.iterator();
-
-            renderTop(out);
-            while (i.hasNext()) {
-                FileItem fi = (FileItem) i.next();
-                if (!fi.isFormField()) {
-                    // Get the uploaded file parameters
-                    String fieldName = fi.getFieldName();
-                    String fileName = fi.getName();
-                    String contentType = fi.getContentType();
-                    boolean isInMemory = fi.isInMemory();
-                    long sizeInBytes = fi.getSize();
-                    // Write the file
-                    if (fileName.lastIndexOf("\\") >= 0) {
-                        file = new File(filePath +
-                                fileName.substring(fileName.lastIndexOf("\\")));
-                    } else {
-                        file = new File(filePath +
-                                fileName.substring(fileName.lastIndexOf("\\") + 1));
-                    }
-                    fi.write(file);
-//                    out.println("Uploaded Filename: " + fileName + "<br>");
-
-                    out.print("<p class='lead'>Uploaded Filename: " + fileName + "</p>");
-
-                    func(fileName);
-                }
-            }
-            renderEnd(out);
-        } catch (Exception ex) {
-            System.out.println(ex);
-        }
-    }
-
-    @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        super.doGet(req, resp);
+
         PrintWriter out = resp.getWriter();
+
         renderTop(out);
-        out.print("                    <p class='lead'>Upload Book</p>" +
-                "                    <form action='/serv' method='post' enctype='multipart/form-data'>" +
-                "                        <div class='input-group'>" +
-                "                            <label class='myLabel'>" +
-                "                                <input type='file' name='file' size='50' multiple/>" +
-                "                                <span class='btn-lg btn-success'><i class='glyphicon glyphicon-upload'></i>&nbsp;&nbsp;&nbsp;&nbsp;Choose files</span>" +
-                "                            </label>" +
-                "                            <br/>" +
-                "                            <label class='myLabel'>" +
-                "                                <input type='submit' value='Upload' class='btn-lg btn-success'>" +
-                "                            </label>" +
-                "                        </div>" +
+        out.print("<p class='lead'>What do you want to search today</p>\n" +
+                "\n" +
+                "                    <form action='serv' method='post'>\n" +
+                "                    <div class='input-group'>\n" +
+                "                        <input type='search' class='form-control' id='searchBox' placeholder='Type to Search!'\n" +
+                "                               name='query' value=''>\n" +
+                "\n" +
+                "                        <div class='input-group-btn'>\n" +
+                "                            <button type='submit' class='btn btn-success'><i class='glyphicon glyphicon-search'></i>&nbsp;&nbsp;&nbsp;&nbsp;Search\n" +
+                "                                Books\n" +
+                "                            </button>\n" +
+                "                        </div>\n" +
+                "                    </div>\n" +
                 "                    </form>");
         renderEnd(out);
     }
-
-    public static void func(String filename) throws Exception {
-        // TODO Auto-generated method stub
-        PDDocument document = PDDocument.load(filePath + filename);
-
-        Dictionary<String, String> metaDict;
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Settings settings = ImmutableSettings.settingsBuilder()
                 .put("cluster.name", "searchworm").build();
-        SearchWormElasticSearch searchWormElasticSearch = new SearchWormElasticSearch(settings);
+        SearchWormElasticSearch swES = new SearchWormElasticSearch(settings);
+        String query = req.getParameter("query");
 
+        PrintWriter out = resp.getWriter();
 
-        //Class to read the pages of the book
-        ReadPages readPages = new ReadPages(document);
+        renderTop(out);
+        out.print("<p class='lead'>What do you want to search today</p>\n" +
+                "\n" +
+                "                    <form action='serv' method='post'>\n" +
+                "                    <div class='input-group'>\n" +
+                "                        <input type='search' class='form-control' id='searchBox' placeholder='Type to Search!'\n" +
+                "                               name='query' value=''>\n" +
+                "\n" +
+                "                        <div class='input-group-btn'>\n" +
+                "                            <button type='submit' class='btn btn-success'><i class='glyphicon glyphicon-search'></i>&nbsp;&nbsp;&nbsp;&nbsp;Search\n" +
+                "                                Books\n" +
+                "                            </button>\n" +
+                "                        </div>\n" +
+                "                    </div>\n" +
+                "                    </form>");
+        out.print("<p class='lead'>Showing results for query: " + query+"<p>");
+        jsonParser(swES.searchBooks(query),out);
 
-        //Class to get the metaData of the object
-        MetaData metaData = new MetaData(document);
-        metaDict = metaData.getMetaData();
+        renderEnd(out);
+        swES.closeClient();
+    }
+    private void jsonParser(String s, PrintWriter out) {
 
-        for (int i = 1; i <= Integer.parseInt(metaDict.get("PageCount")); i++) {
-            //To Index the data to the cluster
-            searchWormElasticSearch.addData(metaDict.get("Title"), String.valueOf(i), readPages.getPages(i, i));
+        JSONObject jObj1 = new JSONObject(s);
+        JSONObject jObj2 = jObj1.getJSONObject("hits");
+        JSONArray jsonArray = jObj2.getJSONArray("hits");
+
+        String bookname;
+        int pageNumber;
+        String content;
+        out.print("<ol>");
+        for (int i = 0; i < jsonArray.length(); i++) {
+            out.print("<li>");
+            JSONObject iObj = jsonArray.getJSONObject(i);
+            bookname = iObj.getString("_type");
+            pageNumber = iObj.getInt("_id");
+
+            content = iObj.getJSONObject("_source").getString("content");
+            out.print(bookname + " : " + pageNumber+"<a href='web/viewer.html?file="+bookname+"#page="+pageNumber+"'>Click to view</a>"+" : <br/>"+content.replaceAll("\n","<br/>")+"");
+//            out.print();
+            System.out.println(bookname + " : " + pageNumber+" : "+content);
+            out.print("</li>");
         }
-
-        searchWormElasticSearch.closeClient();
+        out.print("</ol>");
     }
 
     private static void renderTop(PrintWriter out) {
@@ -158,7 +115,7 @@ public class Servlet extends HttpServlet {
                 "    <meta name='viewport' content='width=device-width, initial-scale=1'>" +
                 "    <link href='css/bootstrap.min.css' rel='stylesheet'>" +
                 "    <link href='css/searchworm.css' rel='stylesheet'>" +
-                "    <title>Upload Books</title>" +
+                "    <title>Search</title>" +
                 "    <style>" +
                 "        label.myLabel input[type='file'] {" +
                 "            position: fixed;" +
@@ -166,55 +123,62 @@ public class Servlet extends HttpServlet {
                 "        }" +
                 "    </style>" +
                 "</head>" +
-                "<body>" +
-
-                "<!--Content for Header-->" +
-                "<div id='header'>" +
-
-                "    <nav class='navbar navbar-default'>" +
-                "        <div class='container-fluid'>" +
-                "            <div class='navbar-header'>" +
-                "                <a class='navbar-brand' href='#'>" +
-                "                    <img src='images/logo.png' class='header-img'/>" +
-                "                    <p class='header-text'>SearchWorm</p>" +
-                "                </a>" +
-                "            </div>" +
-                "            <ul class='nav navbar-nav navbar-right'>" +
-                "                <li><a href='/upload'>Upload Books</a></li>" +
-                "                <li><a href='/search'>Search Books</a></li>" +
-                "            </ul>" +
-                "        </div>" +
-                "    </nav>" +
-                "</div>" +
-
-                "<!--Content for Main Container-->" +
-                "<div id='mainContainer'>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>" +
-                "    </div>" +
-                "    <div class='row'>" +
-                "        <div class='col-1 col-lg-1 col-sm-1 col-md-1'></div>" +
-                "        <div class='col-10 col-lg-10 col-sm-10 col-md-10'>" +
-                "            <!--Beginning of Panel-->" +
-                "<div class='panel panel-default'>" +
+                "<body>\n" +
+                "\n" +
+                "<!--Content for Header-->\n" +
+                "<div id='header'>\n" +
+                "\n" +
+                "    <nav class='navbar navbar-default'>\n" +
+                "        <div class='container-fluid'>\n" +
+                "            <div class='navbar-header'>\n" +
+                "                <a class='navbar-brand' href='#'>\n" +
+                "                    <img src='images/logo.png' class='header-img'/>\n" +
+                "\n" +
+                "                    <p class='header-text'>SearchWorm</p>\n" +
+                "                </a>\n" +
+                "            </div>\n" +
+                "            <ul class='nav navbar-nav navbar-right'>\n" +
+                "                <li><a href='/upload'>Upload Books</a></li>\n" +
+                "                <li><a href='/search'>Search Books</a></li>\n" +
+                "            </ul>\n" +
+                "        </div>\n" +
+                "    </nav>\n" +
+                "\n" +
+                "</div>\n" +
+                "\n" +
+                "<!--Content for Main Container-->\n" +
+                "<div id='mainContainer'>\n" +
+                "\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "    <div class='row'>\n" +
+                "        <div class='col-12 col-lg-12 col-sm-12 col-md-12'>&nbsp;</div>\n" +
+                "    </div>\n" +
+                "\n" +
+                "    <div class='row'>\n" +
+                "\n" +
+                "        <div class='col-1 col-lg-1 col-sm-1 col-md-1'></div>\n" +
+                "\n" +
+                "        <div class='col-10 col-lg-10 col-sm-10 col-md-10'>\n" +
+                "\n" +
+                "            <!--Beginning of Panel-->\n" +
+                "            <div class='panel panel-default'>\n" +
                 "                <div class='panel-body'>");
     }
 
@@ -232,4 +196,5 @@ public class Servlet extends HttpServlet {
                 "</body>" +
                 "</html>");
     }
-}*/
+}
+*/

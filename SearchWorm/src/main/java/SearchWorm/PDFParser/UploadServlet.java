@@ -28,7 +28,10 @@ public class UploadServlet extends HttpServlet {
 
     public void init() {
         // Get the file location where it would be stored.
-        filePath = getServletContext().getInitParameter("file-upload-path");
+//        filePath = getServletContext().getInitParameter("file-upload-path");
+//        filePath = getServletContext().getContextPath();
+        filePath = getServletContext().getRealPath("")+"/web/";
+
     }
 
 
@@ -72,6 +75,7 @@ public class UploadServlet extends HttpServlet {
                 if (!fi.isFormField()) {
                     // Get the uploaded file parameters
                     String fileName = fi.getName();
+                    fileName = fileName.replaceAll(",","_");
                     // Write the file
                     if (fileName.lastIndexOf("\\") >= 0) {
                         file = new File(filePath +
@@ -96,6 +100,7 @@ public class UploadServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         PrintWriter out = resp.getWriter();
         renderTop(out);
         out.print("                    <p class='lead'>Upload Book</p>" +
@@ -133,7 +138,8 @@ public class UploadServlet extends HttpServlet {
 
         for (int i = 1; i <= Integer.parseInt(metaDict.get("PageCount")); i++) {
             //To Index the data to the cluster
-            searchWormElasticSearch.addData(metaDict.get("Title"), String.valueOf(i), readPages.getPages(i, i));
+            searchWormElasticSearch.addData(filename, String.valueOf(i), readPages.getPages(i, i));
+//            searchWormElasticSearch.addData(metaDict.get("Title"), String.valueOf(i), readPages.getPages(i, i));
         }
 
         searchWormElasticSearch.closeClient();

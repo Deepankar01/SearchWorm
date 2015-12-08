@@ -1,25 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ea0e7d4-561c-420a-9dbe-cb459d613fee" name="Default" comment="Change form bookworm to searchworm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-20151123.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lucene-analyzers-common-4.10.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20151123.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/test.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SearchWorm_war_exploded.war/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
+    <list default="true" id="3ea0e7d4-561c-420a-9dbe-cb459d613fee" name="Default" comment="Complete Search servlet&#10;Add pdf js">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78ms-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/78ms-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/83pv-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90ms-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90ms-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90msp-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90msp-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90pv-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/90pv-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Add-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-3.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-4.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-5.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-6.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-CNS1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-3.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-4.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-5.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-GB1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-3.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-4.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-5.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-6.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Japan1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-0.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-1.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Adobe-Korea1-UCS2.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5pc-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/B5pc-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS1-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS1-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/CNS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETHK-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETHK-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETen-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETen-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETenms-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/ETenms-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Ext-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GB-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK2K-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBK2K-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBKp-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBKp-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBT-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBTpc-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBTpc-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBpc-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/GBpc-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdla-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdla-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdlb-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKdlb-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKgccs-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKgccs-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm314-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm314-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm471-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKm471-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKscs-B5-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/HKscs-B5-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Hankaku.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Hiragana.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-Johab-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-Johab-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-HW-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-HW-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCms-UHC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCpc-EUC-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/KSCpc-EUC-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Katakana.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/NWP-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/NWP-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/RKSJ-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/RKSJ-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/Roman.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniCNS-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniGB-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-HW-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-HW-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJIS2004-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISPro-UCS2-HW-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISPro-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISPro-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX0213-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX0213-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX02132004-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniJISX02132004-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UCS2-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UCS2-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF16-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF16-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF32-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF32-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF8-H.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/UniKS-UTF8-V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/V.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/WP-Symbol.bcmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-next@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/findbarButton-previous@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/grab.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/grabbing.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/loading-icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/loading-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/loading-small@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-documentProperties.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-documentProperties@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-firstPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-firstPage@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-handTool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-handTool@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-lastPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-lastPage@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCcw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCcw@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/secondaryToolbarButton-rotateCw@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/texture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-bookmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-bookmark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-download@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-menuArrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-menuArrows@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-openFile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-openFile@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageDown@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-pageUp@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-presentationMode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-presentationMode@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-print@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-search@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-secondaryToolbarToggle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-sidebarToggle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewAttachments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewAttachments@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewOutline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewThumbnail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-viewThumbnail@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomIn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomIn@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomOut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/toolbarButton-zoomOut@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed-rtl@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-collapsed@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-expanded.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/treeitem-expanded@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/pdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/pdf.worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/cmaps/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/compatibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/debugger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-comment.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-help.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-insert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-key.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-newparagraph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-noicon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-note.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/images/annotation-paragraph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/l10n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ach/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/af/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ak/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/an/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ar/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/as/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ast/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/az/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/be/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bg/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bn-BD/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bn-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/br/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/bs/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ca/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/cs/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/csb/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/cy/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/da/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/de/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/el/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/en-GB/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/en-US/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/en-ZA/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/eo/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-AR/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-CL/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-ES/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/es-MX/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/et/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/eu/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fa/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ff/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fi/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/fy-NL/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ga-IE/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/gd/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/gl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/gu-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/he/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hi-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hu/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/hy-AM/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/id/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/is/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/it/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ja/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ka/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/kk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/km/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/kn/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ko/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ku/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lg/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lij/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/locale.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lt/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/lv/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mai/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ml/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mn/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/mr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ms/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/my/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nb-NO/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nn-NO/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/nso/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/oc/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/or/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pa-IN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pt-BR/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/pt-PT/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/rm/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ro/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ru/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/rw/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sah/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/si/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/son/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sq/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sv-SE/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/sw/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ta-LK/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ta/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/te/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/th/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/tl/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/tn/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/tr/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/uk/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/ur/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/vi/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/wo/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/xh/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/zh-CN/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/zh-TW/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/locale/zu/viewer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/viewer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/viewer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web/viewer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SearchWorm.iml" afterPath="$PROJECT_DIR$/SearchWorm.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SearchWorm_war_exploded.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/SearchWorm_war_exploded.war/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search.jsp" afterPath="$PROJECT_DIR$/web/search.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/upload.jsp" afterPath="$PROJECT_DIR$/web/upload.jsp" />
     </list>
     <ignored path="SearchWorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,34 +398,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65686274">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchWormElasticSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/build/pdf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5411471">
+              <caret line="1932" column="6" selection-start-line="1932" selection-start-column="6" selection-end-line="1932" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.5">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,14 +460,15 @@
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/ReaderDemo.java" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" />
         <option value="$PROJECT_DIR$/web/search.jsp" />
         <option value="$PROJECT_DIR$/web/upload.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java" />
+        <option value="$PROJECT_DIR$/web/web/viewer.js" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java" />
       </list>
     </option>
@@ -140,6 +496,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -172,7 +531,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,11 +596,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchWorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchWorm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,10 +644,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchWorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchWorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,7 +670,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -292,11 +679,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/web" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
       <recent name="C:\Users\abhin\IdeaProjects\SearchWorm\SearchWorm\web" />
       <recent name="C:\Users\abhin\IdeaProjects\SearchWorm\SearchWorm\web\WEB-INF\lib" />
       <recent name="C:\Users\abhin\IdeaProjects\SearchWorm\web\WEB-INF\lib" />
-      <recent name="C:\Users\abhin\IdeaProjects\SearchWorm\web" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat_SearchWorm">
@@ -749,7 +1136,7 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Tomcat_SearchWorm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.28" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="Tomcat_SearchWorm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.28" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SearchWorm:war exploded">
@@ -822,9 +1209,9 @@
       </method>
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.5.0.Final-redhat-21" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat_SearchWorm" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JsonParser" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JsonParser" />
+      <item index="1" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.5.0.Final-redhat-21" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat_SearchWorm" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -844,7 +1231,9 @@
       <updated>1445776860259</updated>
       <workItem from="1445776865621" duration="5253000" />
       <workItem from="1445791031141" duration="4170000" />
-      <workItem from="1449485672670" duration="27521000" />
+      <workItem from="1449485672670" duration="28841000" />
+      <workItem from="1449546064690" duration="3441000" />
+      <workItem from="1449569701877" duration="13065000" />
     </task>
     <task id="LOCAL-00001" summary="Change form bookworm to searchworm">
       <created>1449489105117</created>
@@ -858,13 +1247,19 @@
       <option name="project" value="LOCAL" />
       <updated>1449489398867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Complete Upload servlet.&#10;Partial Search servlet.">
+      <created>1449518788228</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1449518788228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36944000" />
+    <option name="totallyTimeSpent" value="54770000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -877,19 +1272,18 @@
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39157566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24924242" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.5054602" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -900,6 +1294,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -916,20 +1311,28 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39157566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24924242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.5054602" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -937,7 +1340,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add search.jsp" />
     <MESSAGE value="Change form bookworm to searchworm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change form bookworm to searchworm" />
+    <MESSAGE value="Complete Upload servlet." />
+    <MESSAGE value="Complete Upload servlet.&#10;Partial Search servlet." />
+    <MESSAGE value="Complete Search servlet&#10;Add pdf js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Search servlet&#10;Add pdf js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -964,7 +1370,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -992,9 +1400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,7 +1407,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,7 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,9 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1764706">
           <caret line="15" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,16 +1490,6 @@
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc;n#jsp:root#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#10063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1112,30 +1504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/search.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22852233">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.1">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.7.3/elasticsearch-1.7.3.jar!/org/elasticsearch/index/query/QueryBuilders.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35656837">
           <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
-          <folding>
-            <element signature="e#6899#6900#0" expanded="true" />
-            <element signature="e#6951#6952#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,19 +1515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="126" column="45" selection-start-line="126" selection-start-column="45" selection-end-line="126" selection-end-column="45" />
-          <folding>
-            <element signature="docComment;class#UploadServlet#0" expanded="false" />
-            <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
-            <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,18 +1530,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24019608">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/JsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="177.75">
           <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.35">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.1">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderTop#0;class#UploadServlet#0" expanded="false" />
+            <element signature="method#renderEnd#0;class#UploadServlet#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1190,15 +1576,59 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchWormElasticSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.133333">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.9">
+          <caret line="190" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.5">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/locale/locale.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034313727">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SearchWorm/PDFParser/SearchServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65686274">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/build/pdf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5411471">
+          <caret line="1932" column="6" selection-start-line="1932" selection-start-column="6" selection-end-line="1932" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1234,6 +1664,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 2.7.6 (/usr/bin/python2.7) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1245,7 +1676,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1257,12 +1688,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SearchWorm</last-edited>
+          <last-edited>Web|SearchWorm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

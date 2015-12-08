@@ -6,7 +6,7 @@
 
     <context-param>
         <param-name>file-upload-path</param-name>
-        <param-value>/server_uploads/</param-value>
+        <param-value>/home/abhinav/IdeaProjects/SearchWorm/SearchWorm/web/web/</param-value>
     </context-param>
 
     <servlet>
@@ -25,7 +25,6 @@
     <servlet-mapping>
         <servlet-name>SearchServlet</servlet-name>
         <url-pattern>/search</url-pattern>
-        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
 
